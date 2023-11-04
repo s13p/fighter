@@ -81,7 +81,7 @@ const player = new Champion({
 			frameMax: 3,
 		},
 		reverseRun: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/ReverseRun.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/reverseRun.png",
 			frameMax: 8,
 		},
 	},
@@ -134,7 +134,7 @@ const enemy = new Champion({
 			frameMax: 2,
 		},
 		hit: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/Hit.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/hit.png",
 			frameMax: 4,
 		},
 		death: {

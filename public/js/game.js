@@ -5,7 +5,7 @@ const background = new Environment({
 	},
 	height: canvas.height,
 	width: canvas.width,
-	imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/background.png",
+	imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/Background.png",
 });
 
 const firstPlayer = () => {
@@ -34,7 +34,7 @@ const player = new Champion({
 		x: 0,
 		y: 0,
 	},
-	imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/idle.png",
+	imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/Idle.png",
 	frameMax: 10,
 	offset: {
 		x: 145,
@@ -53,35 +53,35 @@ const player = new Champion({
 
 	champions: {
 		idle: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/idle.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/Idle.png",
 			frameMax: 10,
 		},
 		run: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/run.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/Run.png",
 			frameMax: 8,
 		},
 		fall: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/fall.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/Fall.png",
 			frameMax: 3,
 		},
 		jump: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/jump.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/Jump.png",
 			frameMax: 3,
 		},
 		attack2: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/attack2.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/Attack2.png",
 			frameMax: 7,
 		},
 		death: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/death.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/Death.png",
 			frameMax: 7,
 		},
 		hit: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/hit.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/Hit.png",
 			frameMax: 3,
 		},
 		reverseRun: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/reverseRun.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/ReverseRun.png",
 			frameMax: 8,
 		},
 	},
@@ -97,7 +97,7 @@ const enemy = new Champion({
 		x: 0,
 		y: 0,
 	},
-	imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/idle.png",
+	imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/Idle.png",
 	frameMax: 8,
 	scale: 1.9,
 	offset: {
@@ -114,35 +114,35 @@ const enemy = new Champion({
 	},
 	champions: {
 		idle: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/idle.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/Idle.png",
 			frameMax: 8,
 		},
 		run: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/run.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/Run.png",
 			frameMax: 8,
 		},
 		reverseRun: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/runForward.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/RunForward.png",
 			frameMax: 8,
 		},
 		fall: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/fall.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/Fall.png",
 			frameMax: 2,
 		},
 		jump: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/jump.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/Jump.png",
 			frameMax: 2,
 		},
 		hit: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/hit.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/Hit.png",
 			frameMax: 4,
 		},
 		death: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/death.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/Death.png",
 			frameMax: 6,
 		},
 		attack2: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/attack2.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkKnight/Attack2.png",
 			frameMax: 4,
 		},
 	},

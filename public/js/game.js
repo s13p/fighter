@@ -5,7 +5,7 @@ const background = new Environment({
 	},
 	height: canvas.height,
 	width: canvas.width,
-	imageSrc: "./img/background.png",
+	imageSrc: "public/img/background.png",
 });
 
 const firstPlayer = () => {
@@ -34,7 +34,7 @@ const player = new Champion({
 		x: 0,
 		y: 0,
 	},
-	imageSrc: "./img/darkWizard/idle.png",
+	imageSrc: "public/img/darkWizard/idle.png",
 	frameMax: 10,
 	offset: {
 		x: 145,
@@ -53,35 +53,35 @@ const player = new Champion({
 
 	champions: {
 		idle: {
-			imageSrc: "./img/darkWizard/idle.png",
+			imageSrc: "public/img/darkWizard/idle.png",
 			frameMax: 10,
 		},
 		run: {
-			imageSrc: "./img/darkWizard/run.png",
+			imageSrc: "public/img/darkWizard/run.png",
 			frameMax: 8,
 		},
 		fall: {
-			imageSrc: "./img/darkWizard/fall.png",
+			imageSrc: "public/img/darkWizard/fall.png",
 			frameMax: 3,
 		},
 		jump: {
-			imageSrc: "./img/darkWizard/jump.png",
+			imageSrc: "public/img/darkWizard/jump.png",
 			frameMax: 3,
 		},
 		attack2: {
-			imageSrc: "./img/darkWizard/attack2.png",
+			imageSrc: "public/img/darkWizard/attack2.png",
 			frameMax: 7,
 		},
 		death: {
-			imageSrc: "./img/darkWizard/death.png",
+			imageSrc: "public/img/darkWizard/death.png",
 			frameMax: 7,
 		},
 		hit: {
-			imageSrc: "./img/darkWizard/hit.png",
+			imageSrc: "public/img/darkWizard/hit.png",
 			frameMax: 3,
 		},
 		reverseRun: {
-			imageSrc: "./img/darkWizard/reverseRun.png",
+			imageSrc: "public/img/darkWizard/reverseRun.png",
 			frameMax: 8,
 		},
 	},
@@ -97,7 +97,7 @@ const enemy = new Champion({
 		x: 0,
 		y: 0,
 	},
-	imageSrc: "./img/darkKnight/idle.png",
+	imageSrc: "public/img/darkKnight/idle.png",
 	frameMax: 8,
 	scale: 1.9,
 	offset: {
@@ -114,35 +114,35 @@ const enemy = new Champion({
 	},
 	champions: {
 		idle: {
-			imageSrc: "./img/darkKnight/idle.png",
+			imageSrc: "public/img/darkKnight/idle.png",
 			frameMax: 8,
 		},
 		run: {
-			imageSrc: "./img/darkKnight/run.png",
+			imageSrc: "public/img/darkKnight/run.png",
 			frameMax: 8,
 		},
 		reverseRun: {
-			imageSrc: "./img/darkKnight/runForward.png",
+			imageSrc: "public/img/darkKnight/runForward.png",
 			frameMax: 8,
 		},
 		fall: {
-			imageSrc: "./img/darkKnight/fall.png",
+			imageSrc: "public/img/darkKnight/fall.png",
 			frameMax: 2,
 		},
 		jump: {
-			imageSrc: "./img/darkKnight/jump.png",
+			imageSrc: "public/img/darkKnight/jump.png",
 			frameMax: 2,
 		},
 		hit: {
-			imageSrc: "./img/darkKnight/hit.png",
+			imageSrc: "public/img/darkKnight/hit.png",
 			frameMax: 4,
 		},
 		death: {
-			imageSrc: "./img/darkKnight/death.png",
+			imageSrc: "public/img/darkKnight/death.png",
 			frameMax: 6,
 		},
 		attack2: {
-			imageSrc: "./img/darkKnight/attack2.png",
+			imageSrc: "public/img/darkKnight/attack2.png",
 			frameMax: 4,
 		},
 	},

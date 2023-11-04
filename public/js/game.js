@@ -77,7 +77,7 @@ const player = new Champion({
 			frameMax: 7,
 		},
 		hit: {
-			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/Hit.png",
+			imageSrc: "https://github.com/s13p/fighter/blob/main/public/img/darkWizard/hit.png",
 			frameMax: 3,
 		},
 		reverseRun: {
